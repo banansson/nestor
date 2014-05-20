@@ -19,6 +19,7 @@ Global
 		Policies = $0
 		$0.TextStylePolicy = $1
 		$1.TabsToSpaces = False
+		$1.EolMarker = Windows
 		$1.inheritsSet = VisualStudio
 		$1.inheritsScope = text/plain
 		$1.scope = text/x-csharp
@@ -50,6 +51,7 @@ Global
 		$0.TextStylePolicy = $3
 		$3.FileWidth = 120
 		$3.TabsToSpaces = False
+		$3.EolMarker = Windows
 		$3.inheritsSet = VisualStudio
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain

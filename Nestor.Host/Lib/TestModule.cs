@@ -7,15 +7,9 @@ namespace Nestor.Host.Lib
 	{
 		public TestModule()
 		{
-			Get["/"] = _ =>
-			{
-				return "Helo";
-			};
+			Get["/"] = _ => "Helo";
 
-			Get["/time"] = _ =>
-			{
-				return String.Format("{0} UTC", DateTime.UtcNow.ToString());
-			};
+			Get["/time"] = _ => String.Format("{0} UTC", DateTime.UtcNow.ToString());
 
 			Get["/random/{nr?}"] = parameters =>
 			{
