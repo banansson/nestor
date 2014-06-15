@@ -5,6 +5,7 @@ env:
 
 install:
   - sudo apt-get install mono-devel mono-gmcs
+  - mozroots --import --sync
 
 script:
   - ./build
