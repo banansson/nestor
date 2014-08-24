@@ -1,7 +1,7 @@
 ﻿version: 0.0.{build}
 
 platform:
-  - AnyCPU
+  - x86
 
 configuration:
   - Release
