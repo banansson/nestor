@@ -17,7 +17,7 @@ namespace Nestor.Host
 				host.Start();
 
 				Console.WriteLine(String.Format("Host started on port {0}", port));
-				Console.Write("Press Enter to stop...");
+				Console.WriteLine("Press Enter to stop...");
 				Console.ReadLine();
 			}
 		}

@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nestor.Host", "Nestor.Host\Nestor.Host.csproj", "{1B6D6784-A9E8-49D4-880C-ADACD86D62DD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{6A9B0ED6-D8AE-415C-B8E5-10D4F1182F67}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		build = build
+		appveyor.yml = appveyor.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +20,8 @@ Global
 		{1B6D6784-A9E8-49D4-880C-ADACD86D62DD}.Debug|x86.Build.0 = Debug|x86
 		{1B6D6784-A9E8-49D4-880C-ADACD86D62DD}.Release|x86.ActiveCfg = Release|x86
 		{1B6D6784-A9E8-49D4-880C-ADACD86D62DD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Nestor.Host\Nestor.Host.csproj

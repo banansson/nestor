@@ -1,0 +1,11 @@
+﻿version: 0.0.{build}
+
+platform:
+  - AnyCPU
+
+configuration:
+  - Release
+
+before_build:
+  - cmd: nuget restore
+
